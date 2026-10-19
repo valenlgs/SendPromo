@@ -1,0 +1,6 @@
+{
+  "name": "SendPromo",
+  "description": "Send promos faster and easier for DJs and record labels.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

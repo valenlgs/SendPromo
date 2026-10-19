@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Group": {
+      "path": "/users/{userId}/groups/{groupId}",
+      "fields": {
+        "name": { "type": "string" },
+        "emails": { "type": "array", "items": { "type": "string" } },
+        "createdAt": { "type": "timestamp" },
+        "updatedAt": { "type": "timestamp" }
+      }
+    },
+    "Draft": {
+      "path": "/users/{userId}/drafts/{draftId}",
+      "fields": {
+        "realName": { "type": "string", "optional": true },
+        "cityCountry": { "type": "string", "optional": true },
+        "artistNames": { "type": "string" },
+        "trackTitle": { "type": "string" },
+        "releaseType": { "type": "string" },
+        "releaseDate": { "type": "string" },
+        "isLabelRelease": { "type": "boolean" },
+        "labelName": { "type": "string", "optional": true },
+        "pitchMessage": { "type": "string" },
+        "deliveryMethods": { "type": "array" },
+        "selectedGroupIds": { "type": "array", "items": { "type": "string" } },
+        "excludedEmails": { "type": "array", "items": { "type": "string" } },
+        "createdAt": { "type": "timestamp" },
+        "updatedAt": { "type": "timestamp" }
+      }
+    },
+    "Campaign": {
+      "path": "/users/{userId}/campaigns/{campaignId}",
+      "fields": {
+        "subject": { "type": "string" },
+        "bodyPreview": { "type": "string" },
+        "recipientCount": { "type": "number" },
+        "recipients": { "type": "array", "items": { "type": "string" } },
+        "sentAt": { "type": "timestamp" },
+        "status": { "type": "string" }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- DJ Headphone Arch -->
+    <path
+        android:strokeWidth="4"
+        android:strokeColor="#7C4DFF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M34,56 C34,38 42,28 54,28 C66,28 74,38 74,56" />
+
+    <!-- Left Earcup -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M30,52 C30,49 34,49 34,52 L34,64 C34,67 30,67 30,64 Z" />
+
+    <!-- Right Earcup -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M74,52 C74,49 78,49 78,52 L78,64 C78,67 74,67 74,64 Z" />
+
+    <!-- Central Dynamic Promo Send Plane / Audio Pulse -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M43,68 L68,54 L43,40 L48,52 Z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,52 L68,54 L53,58 Z" />
+
+    <!-- Music note dot -->
+    <path
+        android:fillColor="#7C4DFF"
+        android:pathData="M54,72 A3,3 0 1,0 54,78 A3,3 0 1,0 54,72" />
+
+</vector>
